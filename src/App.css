@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Mountains+of+Christmas:wght@400;700&display=swap");
+
+body {
+  background-color: #daecf9;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Mountains of Christmas", cursive;
+  font-style: bold;
+  font-size: 50px;
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.main-container {
+  margin: 4% 5%;
+}
+
+.settings {
+  height: 520px;
+  width: 200px;
+  padding: 2.5%;
+  border-radius: 20px;
+  border: 3px solid #bcaf9d;
+  background-color: #efece8;
+}
+
+.settings {
+  color: #72634e;
+}
+
+.settings h3 {
+  margin: 0;
+}
+
+.body-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.cookie-icon {
+  height: 100px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+  flex: 1;
+  margin-left: 40px;
+}
+
+.menu-card {
+  width: 100%;
+  min-height: 340px;
+  border-radius: 15px;
+  border: 3px solid white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.menu-text {
+  margin: auto 2rem;
+  padding: 1rem 0;
+}
+
+.food-icon {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  margin-top: 1.2rem;
+  width: 100%;
+  height: 35px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 20px;
+  outline: none;
+  background-color: #fff;
+  color: #72634e;
+  border: none;
+  box-shadow: rgba(44.7, 38.8, 30.6, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+button:hover {
+  cursor: pointer;
+}
