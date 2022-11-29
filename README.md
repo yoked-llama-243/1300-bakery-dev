@@ -2,8 +2,7 @@
 
 ### Link to Deployed Website
 
-If you used the stencil code, this is
-`https://yoked-llama-243.github.io/1300-bakery-dev`
+https://yoked-llama-243-1300-bakery-dev.vercel.app/
 
 ### Goal and Value of the Application
 
