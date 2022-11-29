@@ -24,7 +24,7 @@ The entire app is encapsulated in an `<App />` component, which contains a `<Set
 
 ### How Data is Passed Down Through Components
 
-The entire app is encapsulated in an `<App />` component, which contains the data about the full menu in its state, as well as what items to display. It passes down the hook to edit the data to be displayed to the `<Settings />` and `<Menu />` components, as well as information about the full menu to be used as a basis. In `<Menu />`, the function to edit the data to be displayed only affects what items are favorited. This function to update which items are favorited is then passed down to the `<MenuCard />` components, as well.
+The `<App />` component contains the data about the full menu in its state, as well as a list of what items to display. It passes down the hook to edit the data to be displayed to the `<Settings />` and `<Menu />` components, as well as information about the full menu to be used as a basis. In `<Menu />`, the function to edit the data to be displayed only affects what items are favorited. This function to update which items are favorited is then passed down to the `<MenuCard />` components, as well.
 
 ### How the User Triggers State Changes
 
