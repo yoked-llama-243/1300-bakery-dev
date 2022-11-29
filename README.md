@@ -6,7 +6,7 @@ https://yoked-llama-243-1300-bakery-dev.vercel.app/
 
 ### Goal and Value of the Application
 
-The application is the menu for a bakery, meant to show what items the bakery makes to users who want to gain access to this information. Users can use this menu to learn more about their options of time, have a more personal view even when within the bakery, or as a basis before they call and start ordering. Because this menu is customisable, users can filter what items are displayed, and in what order, to get a better grasp of what they'd want to order from this bakery in a quick and easy way.
+The application is a bakery menu. Users can use this menu to learn more about their options ahead of time, have a more personal view even when within the bakery, or as a basis before they call and start ordering. Because this menu is customisable, users can filter what items are displayed, and in what order, to get a better grasp of what they'd want to order from this bakery in a quick and easy way.
 
 ### Usability Principles Considered
 
