@@ -62,7 +62,7 @@ h1 {
 
 .menu-card {
   width: 100%;
-  min-height: 340px;
+  height: 340px;
   border-radius: 15px;
   border: 3px solid white;
   display: grid;
@@ -99,4 +99,20 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+.settings-section h3 {
+  margin-bottom: 0.5rem;
+}
+
+.settings-section {
+  margin-bottom: 0.8rem;
+}
+
+.settings-section .selector-container {
+  margin-bottom: 0.15rem;
+}
+
+.settings-section input {
+  margin-right: 0.5rem;
 }

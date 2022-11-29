@@ -4,7 +4,7 @@ import { sortOptions, typeOptions, restrictionOptions } from "./Options";
 function SelectInput({ type, checked, name, value, label, onChange }) {
   const id = `${name}__${value}`;
   return (
-    <div>
+    <div className="selector-container">
       <label>
         <input
           type={type}

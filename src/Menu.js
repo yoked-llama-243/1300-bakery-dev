@@ -30,10 +30,10 @@ function MenuCard({ types, dietary_restrictions, description, image, name, price
             Price: ${price} Calories: {calories}
           </div>
           <div className="type">
-            Type: {types.map(getDisplayType).join(",")}
+            Type: {types.map(getDisplayType).join(", ")}
           </div>
           <div className="dietary-restrictions">
-            Dietary Restrictions: {dietary_restrictions.map(getDisplayRestriction).join(",")}
+            Dietary Restrictions: {dietary_restrictions.map(getDisplayRestriction).join(", ")}
           </div>
           <div className="description">
             {description}
